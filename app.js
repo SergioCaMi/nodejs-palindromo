@@ -80,6 +80,7 @@ const server = http.createServer((req, res) => {
   }
 });
 
+
 server.listen(3000, () => {
   console.log("Escuchando peticiones por el puerto 3000");
 });
